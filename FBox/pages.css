@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 30px;
+    color: #4dbf00;
+  }
+  
+  .menu-container {
+    flex: 6;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-list-item {
+    margin-right: 30px;
+  }
+  
+  .menu-list-item.active {
+    font-weight: bold;
+  }
+  .profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .profile-text-container {
+    margin: 0 20px;
+  }
+  
+  .profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .toggle {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  
+  .toggle-icon {
+    color: goldenrod;
+  }
+  
+  .toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease all;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .sidebar .left-menu-icon{
+    padding-bottom: 20px;
+  }
+  
+  .left-menu-icon {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  
+  .navbar-container.active {
+    background-color: white;
+  
+    color: black;
+  }
+  
+  .sidebar.active{
+      background-color: white;
+  }
+  
+  .left-menu-icon.active{
+    color: black;
+}
+  
+  .toggle.active{
+      background-color: black;
+  }
+  
+  .toggle-ball.active{
+      background-color: white;
+      transform: translateX(-20px);
+  }
+
+
+
+
+  .div1{
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    margin-left:80px;
+}
+
+.div2{
+    
+    margin-left:80px;
+    width:100%;
+    display: flex; /* Flexbox kullanarak içerikleri yatay olarak sırala */
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.trailer{
+    margin-right: 40px; /* Metinden sağa boşluk bırak */
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.text {
+    flex: 2; /* Metin alanı genişliği */
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.afis{
+    margin-right: 20px;
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.text2{
+    flex: 2;
+    font-family: "Abhaya Libre", sans-serif;
+    color: black;
+}
+
+.trailer_title{
+    font-family: "Abhaya Libre", sans-serif;
+    color: black;
+    margin-left:30px;
+}
+
+.title{
+    margin-left:80px;
+    color: black;
+    margin-top: 40px;
+}
+
+.trailer_title{
+    margin-left: 80px;
+}
+
+.button{
+  color:white;
+  background-color: black;
+}
+
+.madde.dark-mode{
+  color:black;
+}
+
+
+
+
+
